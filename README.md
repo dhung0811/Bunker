@@ -117,9 +117,13 @@ BunkerWeb represents a modern approach to web application security, combining th
 ## Quick start
 ### Install
 - **Add Helm Repo**
+
 ![addhelm](/imgs/addHelmRepo.png)
+
 - **Edit the Value file**
+
 ![valueFile](/imgs/valuesFile.png)
+
 - **Install Bunker with edited Value file**
 
 ``` helm install <release name> <chart reference> -n <namespace> -f <value file> ```
