@@ -191,9 +191,6 @@ metadata:
     bunkerweb.io/rate-limit: "100r/s"
     bunkerweb.io/rate-burst: "50"
     bunkerweb.io/client-max-body-size: "10m"
-    # Enable CORS if needed:
-    # bunkerweb.io/cors-enable: "on"
-    # bunkerweb.io/cors-allow-origin: "https://app.dev.local"
 spec:
   ingressClassName: bunkerweb
   rules:
