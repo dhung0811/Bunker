@@ -216,6 +216,6 @@ Results
 
 ![Created](/imgs/ingCreated.png)
 
-![Settings](/imgs/setting.png)
+
 
 
