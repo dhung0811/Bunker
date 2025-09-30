@@ -117,6 +117,10 @@ BunkerWeb represents a modern approach to web application security, combining th
 ## Quick start
 ### Install
 - **Add Helm Repo**
+```
+helm repo add bunkerweb https://repo.bunkerweb.io/charts
+helm repo update
+```
 
 ![addhelm](/imgs/addHelmRepo.png)
 
