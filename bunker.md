@@ -1,5 +1,6 @@
 ## Use Bunkerweb behind LB (HAproxy)
 ### Install Bunkerweb with Docker compose:
+Đây là file dockercompse:
 ```
 x-bw-env: &bw-env
   # We use an anchor to avoid repeating the same settings for both services
@@ -159,6 +160,9 @@ Sau khi apply và restart lại haproxy, em thử access từ PC của em thì n
 
 Nhưng khi em curl từ Devs, thì traffic lại đi đúng flow:
 HAproxy &rarr; Bunkerweb
+
 ![formDevs](./imgs/curlfromDevs.png)
+
 Bunker đã nhận traffic:
+
 ![receive](./imgs/receive.png)
