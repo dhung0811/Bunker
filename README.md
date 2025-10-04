@@ -144,7 +144,7 @@ helm repo update
 
 ### Configure
 #### Create Namespace and Ingress Class
-``` kubectl create namespace bunkerweb-system ```
+``` kubectl create namespace bunkerweb ```
 
 Create Ingress Class with yaml:
 ```
@@ -215,6 +215,10 @@ Then apply ingress
 Results
 
 ![Created](/imgs/ingCreated.png)
+
+Resource Usage
+
+![Usage](/imgs/resource.png)
 
 
 
