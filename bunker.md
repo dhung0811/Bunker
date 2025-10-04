@@ -120,6 +120,9 @@ Sau đó em bật REAL_IP và PROXY_PROTOCOL ở đây:
 ![](./imgs/realIP_Proxy.png)
 
 Config HAproxy: 
+
+Sao cho Traffic nhận từ port 80 và 443 sẽ được forward qua 8081 và 8443 và có send proxy
+
 ```
 global
   log 127.0.0.1 local0
