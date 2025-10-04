@@ -161,8 +161,14 @@ Sau khi apply và restart lại haproxy, em thử access từ PC của em thì n
 ![fromHost](./imgs/curlformHost.png)
 ![broken](./imgs/brokenheader.png)
 
-Nhưng khi em curl từ Devs, thì traffic lại đi đúng flow:
+
+Còn khi curl từ WSL (có sử dụng haproxy-protocol), thì traffic lại đi đúng flow:
 HAproxy &rarr; Bunkerweb
+
+![withproxy](./imgs/curlwithProxy.png)
+![formwsl](./imgs/recievedformwsl.png)
+
+Khi em curl từ Devs, mọi thứ vẫn works:
 
 ![formDevs](./imgs/curlfromDevs.png)
 
